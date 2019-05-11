@@ -1,5 +1,5 @@
-cmake_minimum_required (VERSION 3.10)
-project (Project-euler
+cmake_minimum_required (VERSION 3.7)
+project (scratch
                 VERSION 1.0
                 LANGUAGES CXX)
 
@@ -19,8 +19,6 @@ if (UNIX)
 else()
     add_compile_options(/EHc)
 endif()
-
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include_directories(SYSTEM ${PROJECT_SOURCE_DIR}/include)
 add_subdirectory(src)
