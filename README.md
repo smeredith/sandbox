@@ -11,7 +11,7 @@ Experiment with C++ Stuff
 ## Build and Run Tests
 
     $ make
-    $ ./tests
+    $ test/tests
 
 ## If CMakeList.txt changes
 
