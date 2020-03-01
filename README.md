@@ -1,6 +1,6 @@
 # Scratch Project
 
-* See `min-cpp-project` for a more better starting place.*
+*See `min-cpp-project` for a more better starting place.*
 
 Experiment with C++ Stuff
 
